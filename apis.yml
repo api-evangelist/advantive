@@ -1,7 +1,19 @@
 aid: advantive
 name: Advantive
-description: Advantive is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Advantive is an AI-enabled software company for specialty manufacturing and
+  distribution operations, unifying ERP, MES, quality (SPC/SQC), PLM, WMS, and
+  B2B commerce workflows into industry-specific systems. Built from a portfolio
+  of brands including Advantzware, DDI System, Distribution One, InfinityQS
+  (Enact and ProFicient), Kiwiplan, WinSPC, and VIA, Advantive serves more than
+  2,500 customers across eight countries in verticals such as food and beverage,
+  packaging (corrugated, folding carton, plastics), automotive, aerospace and
+  defense, electronics, and distribution of fasteners, bearings, HVAC, and
+  janitorial supplies. The company is a private-equity-backed operations
+  software provider; this API Evangelist profile tracks its public digital
+  surface. No public developer API or OpenAPI has been found — integration is
+  delivered through the products' own connectors and the Advantive support
+  portal.
 url: https://raw.githubusercontent.com/api-evangelist/advantive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,31 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.advantive.com/wp-content/uploads/2026/06/advant1ve-logo-1.webp
 tags:
 - Company
+- Manufacturing
+- Distribution
+- ERP
+- MES
+- Quality Management
+- Statistical Process Control
+- Supply Chain
+- Operations Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.advantive.com/
+- type: Blog
+  url: https://www.advantive.com/blog/
+- type: Support
+  url: https://advantive.my.site.com/support/s/
+- type: PrivacyPolicy
+  url: https://www.advantive.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.advantive.com/legal/terms-of-use/
+- type: DomainSecurity
+  url: security/advantive-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
